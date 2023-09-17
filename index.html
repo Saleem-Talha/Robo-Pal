@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robo Pal</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="light-theme.css" />
+    <link rel="stylesheet" href="dark-theme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./images/robot.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <div class="overlay " id="overlay" style="display: none;">
+        <button class="new-chat-mob ">New Chat</button>
+        <p class="his1 " style="margin-left: 15px;">History</p>
+        <div class="history-mob "></div>
+        <nav>
+            <p style="font-size: 10px; text-align: center;" class="">Saleem
+                Talha. © All Rights Reserved</p>
+        </nav>
+    </div>
+
+
+
+
+    <section class="side-bar animate__animated animate__fadeInLeftBig">
+        <button class="new-chat animate__animated animate__fadeInLeftBig">New Chat</button>
+        <p class="his animate__animated animate__fadeInLeftBig">History</p>
+        <div class="history animate__animated animate__fadeInLeftBig"></div>
+        <nav>
+            <p style="font-size: 10px; text-align: center;" class="animate__animated animate__fadeInLeftBig">Saleem
+                Talha. © All Rights Reserved</p>
+        </nav>
+    </section>
+
+    <img src="./images/menu1.png" alt="" class="menu circle-hover">
+
+
+
+    <section class="main">
+        <div class="logo-container">
+            <div class="h1-div">
+                <img src="./images/1.png" alt=""
+                    class="logo .light-theme-src animate__animated animate__fadeInDownBig" />
+            </div>
+        </div>
+
+
+
+
+
+        <div class="output-outer-container">
+            <div class="output-container">
+                <p id="output"></p>
+            </div>
+        </div>
+
+        <div class="grid-container animate__animated animate__fadeInUpBig">
+            <!-- Add four divs with <p> inside -->
+            <div class="grid-item">
+                <h3>What is Ai</h3>
+                <p>Describe Briefly</p>
+            </div>
+            <div class="grid-item">
+                <h3>How to write a professional Email</h3>
+                <p>give me s snippet</p>
+            </div>
+            <div class="grid-item">
+                <h3>How Many Countries are there</h3>
+                <p>also name a few</p>
+            </div>
+            <div class="grid-item">
+                <h3>Explain the Rules of Football</h3>
+                <p>Who is the best player</p>
+            </div>
+        </div>
+
+
+        <div class=".container">
+            <div class="bottom-section animate__animated animate__fadeInUpBig">
+                <div class="input-container">
+                    <input type="text" placeholder="Type Anything Here" />
+                    <!-- Add a loader element next to the submit button -->
+                    <div id="submit" class="submit-button"><button class="submit-btn">➤</button></div>
+                    <div id="loader" class="loader"></div>
+                </div>
+            </div>
+            <div class="button-div animate__animated animate__fadeInUpBig">
+                <button class="custom-button" id="speech">
+                    <div class="button-content">
+                        <img src="./images/speaker2.png" alt="" class="speaker" />
+                        <span>Text to Speech</span>
+                    </div>
+                </button>
+                <button class="custom-button theme" id="toggleThemeButton">
+                    <div class="button-content">
+                        <img src="./images/light.png" alt="" id="themeImage" />
+                        <span>Toggle Theme</span>
+                    </div>
+                </button>
+
+            </div>
+
+
+            <p class="info animate__animated animate__fadeInUpBig">
+                "Unlocking the Future with <span style="color: orange;"> RoboPal </span> Your AI Companion on the Path
+                to
+                Innovation."
+            </p>
+        </div>
+
+
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
